@@ -1,0 +1,75 @@
+.bgChanger-btn {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 80px;
+  height: 40px;
+  border-radius: 22px;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  /* color: red; */
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.bgChanger-btn:hover {
+  transform: translateY(-3px);
+}
+.range-box {
+  width: 85%;
+}
+.range {
+  background: rgb(23, 27, 84, 1);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* width: 100%; */
+  padding: 9px 0;
+}
+
+.setField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  width: 100%;
+  color: white;
+  /* border: 2px solid blue; */
+  background: rgb(23, 27, 84, 1);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-btn {
+  width: 68px;
+  height: 40px;
+  border-radius: 20px;
+  background: linear-gradient(rgb(8, 8, 59), rgb(4, 4, 78));
+  font-size: 12px;
+  position: absolute;
+  right: 5%;
+}
+.c-btn:hover {
+  animation: 0.4s linear;
+  background: black;
+  border: none;
+}
+
+.passGen {
+  border-radius: 25px;
+  width: 90%;
+  color: black;
+}
+
+.main-box{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
